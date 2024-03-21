@@ -3,3 +3,6 @@
 
 # Task 1
 - changed parseInt(process.argv[2], 16) to parseInt(process.argv[2], 10) to ensure the size argument is parsed as a decimal number, as intended.
+
+# Task 4
+- Properly updated the prev and next pointers of neighboring nodes when deleting a node in the delete_dnodeint_at_index function
