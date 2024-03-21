@@ -9,3 +9,6 @@
 
 # Task 2
 - Using i - 1 would actually insert the new element one position before the intended position, leading to incorrect sorting. So, I corrected the index used for insertion to i instead of i - 1 meaning that i represents the position where the new element should be inserted.
+
+# Task 3
+- Fixed Typo in password setter and then I changed the comparison to use lowercase hashes for consistency with the stored password hashes. `lower()` instead of `upper()`
