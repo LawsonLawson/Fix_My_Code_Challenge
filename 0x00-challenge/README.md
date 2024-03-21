@@ -6,3 +6,6 @@
 
 # Task 4
 - Properly updated the prev and next pointers of neighboring nodes when deleting a node in the delete_dnodeint_at_index function
+
+# Task 2
+- Using i - 1 would actually insert the new element one position before the intended position, leading to incorrect sorting. So, I corrected the index used for insertion to i instead of i - 1 meaning that i represents the position where the new element should be inserted.
